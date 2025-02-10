@@ -1,12 +1,4 @@
- 
-// qwx.js  - Keep this file private and secure.  Do NOT commit to public repositories!
-const MRBEN = {
-    YOUTUBE_CHANNEL_ID: "UC3GmaVOt7l8fYjey6iM2HQQ",  // Replace with your actual channel ID
-    FACEBOOK_PAGE_URL: "https://www.facebook.com/share/154gDhaaq9/", // Replace with your Facebook page URL
-    TIKTOK_PROFILE_URL: "https://www.tiktok.com/@mr.ben_gaming_sl?_t=ZS-8tgzU0hkx7o&_r=1", // Replace with your TikTok profile URL
-    CALL_OF_DUTY_MOBILE_NEWS_URL: "https://www.callofduty.com/mobile", // Official COD Mobile News
-    CALL_OF_DUTY_MOBILE_STORE_URL: "https://store.callofdutymobile.com/en-lk/codm", //Official Store URL
-    YOUTUBE_EMBED_BASE_URL: "https://www.youtube.com/embed/",
+
 
     // Array of past livestream video IDs, Titles and thumbnail images (manually updated)
     PAST_LIVESTREAMS: [
