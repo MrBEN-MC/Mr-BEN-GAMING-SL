@@ -1,0 +1,72 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MrBEN Gaming - Live Stream</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="MrBEN Gaming Logo"></a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="livestream.html">Live Stream</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="updates.html">Updates</a></li>
+                <li><a href="topup.html">Top-Up CP & Gifts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="live-stream-section">
+            <h2>Current Live Stream</h2>
+            <div class="live-stream-container">
+                <!-- Embed current live stream here -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_LIVESTREAM_ID?autoplay=1&mute=1"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <p><b>Note:</b> Replace YOUR_LIVESTREAM_ID with your actual stream ID, or change back to a regular video
+                    if
+                    you don't have any ongoing livestream.</p>
+            </div>
+            <p id="no-live-stream" style="display: none;">No live stream at the moment.</p>
+        </section>
+
+        <section id="past-live-streams">
+            <h2>Past Live Streams</h2>
+            <div class="grid-container">
+                <!-- Dynamically populate with JavaScript from qwx.js -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 MrBEN Gaming. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://youtube.com/@mrbengamingsl?si=s8Wi6zxZkB24I_vX" target="_blank"><i
+                    class="fab fa-youtube"></i></a>
+            <a href="https://www.facebook.com/share/154gDhaaq9/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.tiktok.com/@mr.ben_gaming_sl?_t=ZS-8tgzU0hkx7o&_r=1" target="_blank"><i
+                    class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+
+    <script src="qwx.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

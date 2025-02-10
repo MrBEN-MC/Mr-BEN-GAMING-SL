@@ -1,0 +1,63 @@
+/* responsive.css */
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media (max-width: 768px) {
+
+    /* Adjust navigation */
+    nav ul {
+        text-align: center; /* Center the navigation links */
+    }
+
+    nav ul li {
+        display: block; /* Stack the navigation links vertically */
+        margin: 10px 0; /* Add spacing between links */
+    }
+
+    /* Adjust the grid layout for responsiveness */
+    .grid-container {
+        grid-template-columns: 1fr;  /* Single column layout on smaller screens */
+    }
+
+    /* Adjust individual grid items if needed */
+    .grid-item {
+        padding: 10px;
+        border: 1px solid #333;
+    }
+
+     /* Adjust Top-Up offers for better mobile display */
+    .offer {
+        width: 100%; /* Make offers full width on smaller screens */
+        margin: 10px 0; /* Adjust margins */
+    }
+    /* Adjust font sizes for better readability */
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+
+    /*  Example: Make the logo smaller */
+    header .logo img {
+        max-width: 150px;
+    }
+
+    /* Add any other responsive adjustments here as needed */
+
+}
+
+/* Further adjustments for even smaller screens (e.g., very small phones) */
+@media (max-width: 480px) {
+    /* Add specific styling for very small screens here */
+
+    /* Example: Reduce padding further */
+    main {
+        padding: 10px;
+    }
+    /* Example: Reduce font sizes further */
+    h2 {
+        font-size: 1.3em;
+    }
+}
